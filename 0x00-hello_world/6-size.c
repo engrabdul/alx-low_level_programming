@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Primary "Prints tge size of various computer types in byte"
- *
- * Description: Programing in C 
- *
- * Return: Always 0.
- */
+* main - Primary "Prints tge size of various computer types in byte"
+*
+* Description: Programing in C
+*
+* Return: 0
+*/
 
 int main(void)
 {
