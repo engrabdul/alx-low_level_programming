@@ -13,6 +13,7 @@ for (c = 'a'; c <= 'z'; ++c)
 if (c != 'e' && c != 'q')
 {
 printf("%c", c);
+  putchar('\n');
 }
 return (0);
 }
