@@ -12,7 +12,7 @@ char c;
 for (c = 'a'; c <= 'z'; ++c)
 if (c != 'e' && c != 'q')
 {
-printf("%c ", c);
+printf("%c", c);
 }
 return (0);
 }
