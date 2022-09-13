@@ -1,4 +1,4 @@
-#include "main.h"
+#include main.h
 
 /**
  * main - Make alphabet x10 times
