@@ -2,6 +2,8 @@
 
 /**
  * main - Make alphabet x10 times
+ * 
+ * Description: C
  *
  * Return: void
  */
