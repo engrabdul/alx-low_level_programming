@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Entry point
- *
+ * @n: variable
  * Description: prints the sign of a number
  *
  * Return: Return: 1 if n>0, 0 if n == 0, -1 if n<0
