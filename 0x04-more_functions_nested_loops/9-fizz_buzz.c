@@ -1,38 +1,40 @@
 #include <stdio.h>
 
 /**
- * main - program that prints either fizz, buzz or fizzbuzz
- * Return: Always 0 (success)
+ * main - Fizz Buzz code
+ *
+ * Return: void
  */
 
 int main(void)
 {
-int num;
+	int i = 1;
 
-for (num = 1; num <= 100; num++)
-{
-if (num == 100)
-{
-printf("Buzz ");
-}
-else if ((num % 3 == 0) && (num % 5 == 0))
-{
-printf("FizzBuzz ");
-}
-else if ((num % 3) == 0)
-{
-printf("Fizz ");
-}
-else if ((num % 5) == 0)
-{
-printf("Buzz ");
-}
-else
-{
-printf("%d ", num);
-}
-}
-printf("\n");
+	while (i <= 100)
+	{
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%i", i);
+		}
+		if (i != 100)
+		{
+			putchar(' ');
+		}
 
-return (0);
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
