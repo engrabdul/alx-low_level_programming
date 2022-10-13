@@ -27,6 +27,6 @@ return (ops[i].f);
 i++;
 }
 
-printf("Errorn");
+printf("Error\n");
 exit(99);
 }
