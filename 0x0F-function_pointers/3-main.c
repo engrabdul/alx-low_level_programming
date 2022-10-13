@@ -21,12 +21,12 @@ b = atoi(argv[3]);
 func = get_op_func(argv[2]);
 if ((*argv[2] == '%' || *argv[2] == '/') && b == 0)
 {
-printf(Errorn);
+printf("Error\n");
 exit(100);
 }
-printf("%dn", func(a, b));
+printf("%d\n", func(a, b));
 return (0);
 }
-printf("Errorn");
+printf("Error\n");
 exit(98);
 }
